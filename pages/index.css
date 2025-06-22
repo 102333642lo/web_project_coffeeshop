@@ -3,6 +3,9 @@
   max-width: 1600px;
   margin: auto;
   font-family: ARIAL, sans-serif;
+  font-family: 'not serif', 'times new roman', serif;
+  font-style: italic;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
 }
