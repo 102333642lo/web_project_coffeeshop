@@ -58,8 +58,6 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-
-
 }
 
 .header__title {
@@ -76,7 +74,7 @@
 
 }
 
-.header_espan-accent {
+.span-accent {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
@@ -104,7 +102,7 @@
   right: 5px;
 }
 
-.header__footer {
+.footer {
   margin-top: auto;
   font-family: "Inter";
   font-style: normal;
@@ -114,14 +112,14 @@
   color: #838383;
 }
 
-.header__footer_hours {
+.footer_hours {
   list-style-type: none;
   position: absolute;
   bottom: 40px;
   left: 80px;
 }
 
-.header__footer_paragraph {
+.footer_paragraph {
   position: absolute;
   bottom: 40px;
   right: 80px;
