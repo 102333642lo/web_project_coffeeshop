@@ -102,7 +102,7 @@
   right: 5px;
 }
 
-.footer {
+.header__footer {
   margin-top: auto;
   font-family: "Inter";
   font-style: normal;
@@ -112,20 +112,20 @@
   color: #838383;
 }
 
-.footer_hours {
+.header__footer_hours {
   list-style-type: none;
   position: absolute;
   bottom: 40px;
   left: 80px;
 }
 
-.footer_paragraph {
+.header__footer_paragraph {
   position: absolute;
   bottom: 40px;
   right: 80px;
 }
 
-.footer__list {
+.header__footer__list {
   list-style-type: none;
 }
 
