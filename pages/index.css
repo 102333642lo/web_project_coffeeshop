@@ -5,4 +5,120 @@
   font-family: ARIAL, sans-serif, 'not serif', 'times new roman', serif;
   font-size: 16px;
   line-height: 20px;
+  background-color: #ffffff;
+  background-image: url(background_header.);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  column-gap: 20px;
+  margin-top: 30px;
+  margin-right: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+
+}
+
+.header__title {
+  line-height: 30px;
+  max-width: 709px;
+  margin-top: 183px;
+  margin-left: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+
+}
+
+.header_espan-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2F80ED;
+}
+
+.header__description {
+  margin-top: 28px;
+  margin-left: 80px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+}
+
+.header__footer {
+  margin-top: auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.header__footer_hours {
+  list-style-type: none;
+  position: absolute;
+  bottom: 40px;
+  left: 80px;
+}
+
+.header__footer_paragraph {
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+}
+
+.footer__list {
+  list-style-type: none;
 }
