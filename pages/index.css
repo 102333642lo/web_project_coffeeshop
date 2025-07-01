@@ -219,7 +219,7 @@
   line-height: 52px;
 }
 
-.reservation__form_ {
+.reservation__form {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -272,7 +272,7 @@
 
 }
 
-.reservation__form_button--submit {
+.reservation__form-button--submit {
   padding: 60px;
   margin-top: 35px;
   min-width: 385px;
