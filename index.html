@@ -26,26 +26,25 @@
 <body>
   <div class="page">
     <header class="header">
+      <nav class="nav">
+        <img src="/images/logo_coffeeshop_dark.svg" alt="logo triple espresso" class="nav__logo">
+
+        <ul class="nav__links">
+          <li><a class="nav__link" href="#recipes">Recetas </a>
+          </li>
+          <li><a class="nav__link" href="#reservation">Reservar una mesa</a>
+          </li>
+          <li><a class="nav__link">Contactos</a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="header__title">
+        <span class="span-accent"> Café de especialidad </span><br>en
+        Triple
+        Peaks
+
+      </h1>
       <div class="header__content">
-        <nav class="nav">
-          <img src="/images/logo_coffeeshop_dark.svg" alt="logo triple espresso" class="nav__logo">
-
-          <ul class="nav__links">
-            <li><a class="nav__link" href="#recipes">Recetas </a>
-            </li>
-            <li><a class="nav__link" href="#reservation">Reservar una mesa</a>
-            </li>
-            <li><a class="nav__link">Contactos</a>
-            </li>
-          </ul>
-
-        </nav>
-        <h1 class="header__title">
-          <span class="span-accent"> Café de especialidad </span><br>en
-          Triple
-          Peaks
-
-        </h1>
         <p class="header__description">¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
           <br>
           para darte energía y motivar tu creatividad.
@@ -104,7 +103,59 @@
 
         </section>
       </section>
-      <section class="reservation" id="reservation"></section>
+      <section class="reservation" id="reservation">
+        <h1 class="reservation__title">
+          Reservar una mesa
+        </h1>
+        <div class="reservatio__form">
+          <form class="form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="nombre">Nombre</label>
+              <input type="text" class="form__input" minlength="3" maxlength="20" required placeholder="Nombre"
+                id="nombre" />
+
+
+              <label class="form__label" for="comensales">Numero de comensales</label>
+              <input type="number" class="form__input" min="1" max="8" required placeholder="1-8" id="comensales" />
+
+
+              <label class="form__label" for="datetime">Fecha y hora </label>
+              <input type="datetime-local" class="form__input" id="datetime" />
+
+
+              <label class="form__label" for="email">Tu correo electronico </label>
+              <input type="email" class="form__input" required placeholder="email@email.com" id="email" />
+
+
+              <div class="form__buttons">
+
+
+                <button type="submit" class="form__button form__button--submit" disabled>
+                  reservar una mesa
+                </button>
+                <script src="script.js"></script>
+              </div>
+              <div class="form__checkbox">
+                <input type="checkbox" id="términos" class="form__checkbox-input" />
+                Acepto los términos de uso
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            </fieldset>
+        </div>
+
+
+      </section>
 
     </main>
     <footer class="footer"></footer>
