@@ -103,7 +103,7 @@
           <h2 class="reservation__title">
             Reservar una mesa
           </h2>
-          <form class=" reservation reservation__form">
+          <form class="reservation__form">
             <fieldset class=" reservation__form reservation__form_fieldset">
               <label class="reservation__form  reservation__form_label" for="nombre">Nombre</label>
               <input type="text" class="reservation__form reservation__form_input" minlength="3" maxlength="20" required
@@ -122,26 +122,22 @@
               <label class="reservation__form reservation__form_label" for="email">Tu correo electronico </label>
               <input type="email" class="reservation__form reservation__form_input" required
                 placeholder="email@email.com" id="email" />
-              <section class="form__buttons">
-                <div>
-                  <button type="submit" class="form__button form__button--submit" disabled>
-                    reservar una mesa
-                  </button>
-              </section>
-              <script src="script.js"></script>
-  </div>
-  <section class="form__checkbox">
-    <div class="form__checkbox">
-      <input type="checkbox" id="términos" class=" form__checkbox form__checkbox-input" />
-      Acepto los términos de uso
-    </div>
-  </section>
-  </fieldset>
-  </form>
-  </section>
-  </section>
-  </main>
-  <footer class="footer"></footer>
+              <div class="reservation__form  reservation__form_buttons">
+                <button type="submit" class="reservation__form_button reservation__form_button--submit" disabled>
+                  reservar una mesa
+                </button>
+                <script src="script.js"></script>
+              </div>
+              <div class=" reservation__form reservation__form_checkbox">
+                <input type="checkbox" id="términos" class=" reservation__form reservation__form_checkbox-input" />
+                Acepto los términos de uso
+              </div>
+            </fieldset>
+          </form>
+        </section>
+      </section>
+    </main>
+    <footer class="footer"></footer>
   </div>
   <script></script>
 </body>
