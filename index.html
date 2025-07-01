@@ -104,61 +104,45 @@
         </section>
       </section>
       <section class="reservation" id="reservation">
-        <h1 class="reservation__title">
+        <h2 class="reservation__title">
           Reservar una mesa
-        </h1>
-        <div class="reservatio__form">
-          <form class="form">
-            <fieldset class="form__fieldset">
-              <label class="form__label" for="nombre">Nombre</label>
-              <input type="text" class="form__input" minlength="3" maxlength="20" required placeholder="Nombre"
-                id="nombre" />
+        </h2>
+        <form class="reservatio__form">
+          <fieldset class="form__fieldset">
+            <label class="form__label" for="nombre">Nombre</label>
+            <input type="text" class="form__input" minlength="3" maxlength="20" required placeholder="Nombre"
+              id="nombre" />
 
 
-              <label class="form__label" for="comensales">Numero de comensales</label>
-              <input type="number" class="form__input" min="1" max="8" required placeholder="1-8" id="comensales" />
+            <label class="form__label" for="comensales">Numero de comensales</label>
+            <input type="number" class="form__input" min="1" max="8" required placeholder="1-8" id="comensales" />
 
 
-              <label class="form__label" for="datetime">Fecha y hora </label>
-              <input type="datetime-local" class="form__input" id="datetime" />
+            <label class="form__label" for="datetime">Fecha y hora </label>
+            <input type="datetime-local" class="form__input" id="datetime" />
 
 
-              <label class="form__label" for="email">Tu correo electronico </label>
-              <input type="email" class="form__input" required placeholder="email@email.com" id="email" />
+            <label class="form__label" for="email">Tu correo electronico </label>
+            <input type="email" class="form__input" required placeholder="email@email.com" id="email" />
 
 
-              <div class="form__buttons">
+            <div class="form__buttons">
 
 
-                <button type="submit" class="form__button form__button--submit" disabled>
-                  reservar una mesa
-                </button>
-                <script src="script.js"></script>
-              </div>
-              <div class="form__checkbox">
-                <input type="checkbox" id="términos" class="form__checkbox-input" />
-                Acepto los términos de uso
-              </div>
-
-
-
-
-
-
-
-
-
-
-
-
-            </fieldset>
-        </div>
-
-
-      </section>
-
-    </main>
-    <footer class="footer"></footer>
+              <button type="submit" class="form__button form__button--submit" disabled>
+                reservar una mesa
+              </button>
+              <script src="script.js"></script>
+            </div>
+            <div class="form__checkbox">
+              <input type="checkbox" id="términos" class="form__checkbox-input" />
+              Acepto los términos de uso
+            </div>
+          </fieldset>
+  </div>
+  </section>
+  </main>
+  <footer class="footer"></footer>
   </div>
   <script></script>
 </body>
