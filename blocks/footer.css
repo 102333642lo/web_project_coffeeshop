@@ -4,12 +4,11 @@
   background-color: #0A2850;
   color: #ffffff;
   position: relative;
-
+  overflow: hidden;
 }
 
 .footer__content {
   display: flex;
-  padding: 60px 80px auto;
 
 }
 
