@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,12 +24,14 @@
     rel="stylesheet">
 </head>
 
+
 <body>
   <div class="page">
     <header class="header">
       <div class="header__content">
         <nav class="nav">
           <img src="/images/logo_coffeeshop_dark.svg" alt="logo triple espresso" class="nav__logo">
+
 
           <ul class="nav__links">
             <li><a class="nav__link" href="#recipes">Recetas </a>
@@ -43,6 +46,7 @@
           <span class="span-accent"> Café de especialidad </span><br>en
           Triple
           Peaks
+
 
         </h1>
         <p class="header__description">¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
@@ -101,50 +105,65 @@
         </div>
       </section>
       <section class="reservation" id="reservation">
-        <h2 class="reservation__title">
-          Reservar una mesa
-        </h2>
-        <form class="reservation__form">
-          <fieldset class=" reservation__form reservation__form_fieldset">
-            <label class="reservation__form  reservation__form_label" for="nombre">Nombre</label>
-            <input type="text" class="reservation__form reservation__form_input" minlength="3" maxlength="20" required
-              placeholder="Nombre" id="nombre" />
+        <div>
+          <h2 class="reservation__title">
+            Reservar una mesa
+          </h2>
+          <form class="reservation__form">
+            <fieldset class="reservation__fieldset">
 
 
-            <label class=" reservation__form reservation__form_label" for="comensales">Numero de comensales</label>
-            <input type="number" class="reservation__form reservation__form_input" min="1" max="8" required
-              placeholder="1-8" id="comensales" />
+              <label class="reservation__label" for="nombre">Nombre</label>
+              <input type="text" class="reservation__input" minlength="3" maxlength="20" required placeholder="Nombre"
+                id="nombre" />
 
 
-            <label class=" reservation__form reservation__form_label" for="datetime">Fecha y hora </label>
-            <input type="datetime-local" class=" reservation__form reservation__form_input" id="datetime" />
 
 
-            <label class="reservation__form reservation__form_label" for="email">Tu correo electronico </label>
-            <input type="email" class="reservation__form reservation__form_input" required placeholder="email@email.com"
-              id="email" />
-
-            <div class="reservation__form_buttons">
-              <button type="submit" class="reservation__form_button reservation__form_button--submit" disabled>
-                reservar una mesa
-              </button>
-              <script src="script.js"></script>
-            </div>
+              <label class="reservation__label" for="comensales">Numero de comensales</label>
+              <input type="number" class="reservation__input" min="1" max="8" required placeholder="1-8"
+                id="comensales" />
 
 
-            <div class="reservation__form_checkbox">
-              <input type="checkbox" id="términos" class=" reservation__form reservation__form_checkbox-input" />
-              Acepto los términos de uso
-            </div>
 
-          </fieldset>
-        </form>
+
+              <label class="reservation__label" for="datetime">Fecha y hora </label>
+              <input type="datetime-local" class=" reservation__input" id="datetime" />
+
+
+
+
+              <label class="reservation__label" for="email">Tu correo electronico </label>
+              <input type="email" class="reservation__input" required placeholder="email@email.com" id="email" />
+
+
+              <div class="reservation__button">
+                <button type="submit" class="reservation__button reservation__button--submit" disabled>
+                  Reservar una mesa
+                </button>
+                <script src="script.js"></script>
+              </div>
+
+
+
+
+              <div class="reservation__checkbox">
+                <input type="checkbox" id="términos" class="reservation__checkbox-input" />
+                Acepto los términos de uso
+              </div>
+
+
+            </fieldset>
+          </form>
+        </div>
       </section>
+
 
     </main>
     <footer class="footer"></footer>
   </div>
   <script></script>
 </body>
+
 
 </html>
