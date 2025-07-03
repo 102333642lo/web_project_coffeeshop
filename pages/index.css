@@ -252,6 +252,10 @@
   border: none;
 }
 
+.form {
+  border: none
+}
+
 
 .reservation__fieldset {
   display: flex;
