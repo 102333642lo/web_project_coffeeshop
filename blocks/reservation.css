@@ -8,6 +8,8 @@
   display: flex;
   justify-content: center;
   min-width: 385px;
+  position: relative;
+  z-index: 1;
 }
 
 .reservation__title {
