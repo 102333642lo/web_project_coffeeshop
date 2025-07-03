@@ -28,17 +28,6 @@
   letter-spacing: 1px;
 }
 
-
-.header__title_span-accent {
-  font-family: "Noto Serif";
-  font-style: italic;
-  font-weight: normal;
-  font-size: 58px;
-  line-height: 72px;
-  color: #2F80ED;
-}
-
-
 .header__description {
   margin-top: 28px;
   margin-left: 80px;
